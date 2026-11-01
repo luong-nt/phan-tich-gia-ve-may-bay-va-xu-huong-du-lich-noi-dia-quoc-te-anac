@@ -105,6 +105,26 @@ def valid_sha(value) -> bool:
     return isinstance(value, str) and bool(re.fullmatch(r'[a-fA-F0-9]{64}', value))
 
 
+
+def same_csv_hash_allow_line_endings(path: Path, recorded_sha: str) -> bool:
+    """Check saved ETL CSV bytes, allowing ONLY CRLF/LF conversion by Git.
+
+    Git can normalize CRLF on Windows to LF on Linux. We compare both
+    newline representations instead of disabling the integrity check.
+    All other byte changes still fail.
+    """
+    if not isinstance(recorded_sha, str) or not re.fullmatch(r'[0-9a-fA-F]{64}', recorded_sha):
+        return False
+    expected = recorded_sha.lower()
+    raw = path.read_bytes()
+    if hashlib.sha256(raw).hexdigest() == expected:
+        return True
+    normalized_lf = raw.replace(b'\r\n', b'\n')
+    if hashlib.sha256(normalized_lf).hexdigest() == expected:
+        return True
+    restored_crlf = normalized_lf.replace(b'\n', b'\r\n')
+    return hashlib.sha256(restored_crlf).hexdigest() == expected
+
 def planned(months: dict, table: pd.DataFrame, sync: dict) -> tuple[list, list]:
     """Missing historical SHA/URL is pending, NOT a reason to abort --check.
 
@@ -137,7 +157,7 @@ def planned(months: dict, table: pd.DataFrame, sync: dict) -> tuple[list, list]:
             # against the actual saved parts AND those parts have not changed.
             if (sha is None and last.get('verified_against_parts') is True
                     and valid_sha(last.get('part_sha256')) and part.is_file()
-                    and last['part_sha256'].lower() == file_sha256(part)):
+                    and same_csv_hash_allow_line_endings(part, last['part_sha256'])):
                 unchanged.append(key)
                 continue
         pending.append((key, market, period, meta))

@@ -47,6 +47,26 @@ def number(value: object, title: str) -> float:
     return v
 
 
+
+def same_csv_hash_allow_line_endings(path: Path, recorded_sha: str) -> bool:
+    """Check saved ETL CSV bytes, allowing ONLY CRLF/LF conversion by Git.
+
+    Git can normalize CRLF on Windows to LF on Linux. We compare both
+    newline representations instead of disabling the integrity check.
+    All other byte changes still fail.
+    """
+    if not isinstance(recorded_sha, str) or not re.fullmatch(r'[0-9a-fA-F]{64}', recorded_sha):
+        return False
+    expected = recorded_sha.lower()
+    raw = path.read_bytes()
+    if hashlib.sha256(raw).hexdigest() == expected:
+        return True
+    normalized_lf = raw.replace(b'\r\n', b'\n')
+    if hashlib.sha256(normalized_lf).hexdigest() == expected:
+        return True
+    restored_crlf = normalized_lf.replace(b'\n', b'\r\n')
+    return hashlib.sha256(restored_crlf).hexdigest() == expected
+
 def check(root: Path = ROOT) -> tuple[int, int]:
     data = root / 'DuLieu_DaXuLy'
     warehouse = root / 'data_warehouse'
@@ -130,11 +150,7 @@ def check(root: Path = ROOT) -> tuple[int, int]:
             if provenance.get('verified_against_parts') is not True:
                 die(f'missing ETL SHA and no verified-against-parts proof: {key}')
             old_part_hash = provenance.get('part_sha256', '')
-            h = hashlib.sha256()
-            with part.open('rb') as src:
-                for block in iter(lambda: src.read(1024 * 1024), b''):
-                    h.update(block)
-            if h.hexdigest().lower() != str(old_part_hash).lower():
+            if not same_csv_hash_allow_line_endings(part, old_part_hash):
                 die(f'ETL part checksum changed since Boxplot verification: {key}')
     extra = {k for k in dist if int(k[0][:4]) >= 2025} - current
     if extra:
