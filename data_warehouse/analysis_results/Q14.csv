@@ -1,0 +1,4 @@
+﻿month_key,market_code,currency_code,mom_fare_pct,mom_seats_pct,fare_flag,seats_flag
+202501,domestic,BRL,-14.77,35.39,,SEATS_MOVE_30PCT
+202512,domestic,BRL,21.59,-41.12,FARE_MOVE_20PCT,SEATS_MOVE_30PCT
+202601,domestic,BRL,-17.82,39.59,,SEATS_MOVE_30PCT

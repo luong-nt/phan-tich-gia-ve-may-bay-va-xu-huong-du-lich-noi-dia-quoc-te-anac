@@ -1,0 +1,6 @@
+﻿sale_year,market_code,currency_code,months_observed,coverage_status,total_seats,priced_seats,weighted_avg_fare,price_coverage_pct
+2024,domestic,BRL,12,FULL_YEAR,30660967,30660967,629.88,100.0
+2025,domestic,BRL,12,FULL_YEAR,33707514,33707514,640.17,100.0
+2026,domestic,BRL,8,INCOMPLETE_YEAR,21167445,21167445,684.85,100.0
+2024,international,USD,12,FULL_YEAR,2199670,2199670,622.95,100.0
+2025,international,USD,12,FULL_YEAR,2614727,2614727,578.58,100.0

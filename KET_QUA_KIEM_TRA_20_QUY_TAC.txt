@@ -1,0 +1,22 @@
+PASS | 01. 56 rows, 56 unique market-month keys
+PASS | 02. Currency-market mapping consistent
+PASS | 03. Monthly KPI non-null, positive values, seats priced <= total
+PASS | 04. 2026 only domestic, May absent
+PASS | 05. MoM: exact prior calendar month; pct formula | 53 complete comparisons
+PASS | 06. YoY: same month prior year; pct formula | 32 complete comparisons
+PASS | 07. Annual KPIs reconcile to monthly results, weighted fares
+PASS | 08. Matched-month 2026/2025 does not use 2026 missing May
+PASS | 09. Seasonality aggregation 2024-25
+PASS | 10. Pearson correlation independently recalculated
+PASS | 11. Inverse MoM signal count matches
+PASS | 12. Four route top-20 sets ranked correctly
+PASS | 13. YoY growing-route math and 10k filter
+PASS | 14. Top-10 concentration totals match Q04
+PASS | 15. Airport destination top-10 ranks are valid
+PASS | 16. Highest-fare route top-10 have >=10k seats
+PASS | 17. Heuristic alerts match MoM threshold
+PASS | 18. Geography completeness math reconciled | 6724 missing rows
+PASS | 19. Missing-month detection matches monthly dimension
+PASS | 20. Quarters: only full 3-month quarters, weighted KPIs
+
+CHECKS: 20 PASS | 0 FAIL

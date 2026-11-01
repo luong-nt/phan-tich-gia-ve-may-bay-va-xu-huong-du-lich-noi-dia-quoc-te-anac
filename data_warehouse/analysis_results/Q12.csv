@@ -1,0 +1,41 @@
+﻿sale_year,market_code,currency_code,destination_airport_code,destination_name,destination_country,seats_sold,dest_rank
+2024,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,BR,3474714,1
+2024,domestic,BRL,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,BR,3057646,2
+2024,domestic,BRL,SBBR,Presidente Juscelino Kubitschek International Airport,BR,1796842,3
+2024,domestic,BRL,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,BR,1677834,4
+2024,domestic,BRL,SBCF,Tancredo Neves International Airport,BR,1492138,5
+2024,domestic,BRL,SBRJ,Santos Dumont Airport,BR,1292125,6
+2024,domestic,BRL,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,BR,1287223,7
+2024,domestic,BRL,SBSV,Deputado Luiz Eduardo Magalhães International Airport,BR,1284389,8
+2024,domestic,BRL,SBCT,Curitiba-Afonso Pena International Airport,BR,1062819,9
+2024,domestic,BRL,SBKP,Viracopos International Airport,BR,1046601,10
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,BR,3851270,1
+2025,domestic,BRL,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,BR,3431851,2
+2025,domestic,BRL,SBBR,Presidente Juscelino Kubitschek International Airport,BR,2132952,3
+2025,domestic,BRL,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,BR,2018447,4
+2025,domestic,BRL,SBCF,Tancredo Neves International Airport,BR,1555048,5
+2025,domestic,BRL,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,BR,1483866,6
+2025,domestic,BRL,SBPA,Porto Alegre-Salgado Filho International Airport,BR,1438038,7
+2025,domestic,BRL,SBSV,Deputado Luiz Eduardo Magalhães International Airport,BR,1368945,8
+2025,domestic,BRL,SBRJ,Santos Dumont Airport,BR,1306925,9
+2025,domestic,BRL,SBCT,Curitiba-Afonso Pena International Airport,BR,1190647,10
+2024,international,USD,SCEL,Comodoro Arturo Merino Benítez International Airport,CL,634904,1
+2024,international,USD,SABE,Aeroparque Jorge Newbery,AR,151671,2
+2024,international,USD,LPPT,Lisbon Humberto Delgado Airport,PT,148148,3
+2024,international,USD,SAEZ,Ezeiza International Airport - Ministro Pistarini,AR,147063,4
+2024,international,USD,KMIA,Miami International Airport,US,118733,5
+2024,international,USD,KMCO,Orlando International Airport,US,90871,6
+2024,international,USD,SUMU,Carrasco General Cesáreo L. Berisso International Airport,UY,82842,7
+2024,international,USD,LEMD,Adolfo Suárez Madrid–Barajas Airport,ES,66532,8
+2024,international,USD,KFLL,Fort Lauderdale Hollywood International Airport,US,61374,9
+2024,international,USD,LFPG,Charles de Gaulle International Airport,FR,60188,10
+2025,international,USD,SCEL,Comodoro Arturo Merino Benítez International Airport,CL,666135,1
+2025,international,USD,SABE,Aeroparque Jorge Newbery,AR,249898,2
+2025,international,USD,SAEZ,Ezeiza International Airport - Ministro Pistarini,AR,169132,3
+2025,international,USD,LPPT,Lisbon Humberto Delgado Airport,PT,157761,4
+2025,international,USD,KMCO,Orlando International Airport,US,132219,5
+2025,international,USD,SUMU,Carrasco General Cesáreo L. Berisso International Airport,UY,119807,6
+2025,international,USD,LEMD,Adolfo Suárez Madrid–Barajas Airport,ES,116477,7
+2025,international,USD,KMIA,Miami International Airport,US,112069,8
+2025,international,USD,MDPC,Punta Cana International Airport,DO,74512,9
+2025,international,USD,LFPG,Charles de Gaulle International Airport,FR,58720,10

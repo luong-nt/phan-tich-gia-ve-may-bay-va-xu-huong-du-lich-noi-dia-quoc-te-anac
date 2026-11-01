@@ -1,0 +1,81 @@
+﻿sale_year,market_code,currency_code,origin_airport_code,origin_name,destination_airport_code,destination_name,total_seats,avg_fare,route_rank
+2024,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBRJ,Santos Dumont Airport,570211,443.65,1
+2024,domestic,BRL,SBRJ,Santos Dumont Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,564422,454.3,2
+2024,domestic,BRL,SBBR,Presidente Juscelino Kubitschek International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,346468,410.42,3
+2024,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBBR,Presidente Juscelino Kubitschek International Airport,333581,418.6,4
+2024,domestic,BRL,SBCF,Tancredo Neves International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,292068,347.4,5
+2024,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBCF,Tancredo Neves International Airport,281118,359.53,6
+2024,domestic,BRL,SBSV,Deputado Luiz Eduardo Magalhães International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,271238,574.33,7
+2024,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBSV,Deputado Luiz Eduardo Magalhães International Airport,263729,589.72,8
+2024,domestic,BRL,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,239287,683.45,9
+2024,domestic,BRL,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,238975,669.92,10
+2024,domestic,BRL,SBCT,Curitiba-Afonso Pena International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,222753,326.1,11
+2024,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBCT,Curitiba-Afonso Pena International Airport,216324,338.85,12
+2024,domestic,BRL,SBFL,Hercílio Luz International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,204128,455.17,13
+2024,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBFL,Hercílio Luz International Airport,199442,464.52,14
+2024,domestic,BRL,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,175316,574.35,15
+2024,domestic,BRL,SBPA,Porto Alegre-Salgado Filho International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,174927,466.62,16
+2024,domestic,BRL,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SBFZ,Pinto Martins International Airport,173258,815.71,17
+2024,domestic,BRL,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,173169,562.15,18
+2024,domestic,BRL,SBFZ,Pinto Martins International Airport,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,171019,784.05,19
+2024,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBPA,Porto Alegre-Salgado Filho International Airport,169084,489.26,20
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBRJ,Santos Dumont Airport,609939,448.25,1
+2025,domestic,BRL,SBRJ,Santos Dumont Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,595059,469.12,2
+2025,domestic,BRL,SBBR,Presidente Juscelino Kubitschek International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,404382,368.09,3
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBBR,Presidente Juscelino Kubitschek International Airport,390024,374.73,4
+2025,domestic,BRL,SBPA,Porto Alegre-Salgado Filho International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,299817,430.44,5
+2025,domestic,BRL,SBCF,Tancredo Neves International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,299386,374.98,6
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBCF,Tancredo Neves International Airport,290858,387.03,7
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBPA,Porto Alegre-Salgado Filho International Airport,290164,430.77,8
+2025,domestic,BRL,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,267561,661.19,9
+2025,domestic,BRL,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,266233,657.59,10
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBSV,Deputado Luiz Eduardo Magalhães International Airport,260132,652.67,11
+2025,domestic,BRL,SBSV,Deputado Luiz Eduardo Magalhães International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,257345,685.7,12
+2025,domestic,BRL,SBFL,Hercílio Luz International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,248158,346.82,13
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBFL,Hercílio Luz International Airport,239965,338.43,14
+2025,domestic,BRL,SBCT,Curitiba-Afonso Pena International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,223661,341.97,15
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBCT,Curitiba-Afonso Pena International Airport,215816,355.98,16
+2025,domestic,BRL,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,SBSP,Congonhas–Deputado Freitas Nobre Airport,207537,705.76,17
+2025,domestic,BRL,SBSP,Congonhas–Deputado Freitas Nobre Airport,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,202843,705.33,18
+2025,domestic,BRL,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SBFZ,Pinto Martins International Airport,198841,804.84,19
+2025,domestic,BRL,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,SBPA,Porto Alegre-Salgado Filho International Airport,197204,479.76,20
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SCEL,Comodoro Arturo Merino Benítez International Airport,231676,212.77,1
+2024,international,USD,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,SCEL,Comodoro Arturo Merino Benítez International Airport,148828,169.83,2
+2024,international,USD,SBFL,Hercílio Luz International Airport,SCEL,Comodoro Arturo Merino Benítez International Airport,108678,141.27,3
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,KMIA,Miami International Airport,62028,1332.9,4
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SABE,Aeroparque Jorge Newbery,60803,286.76,5
+2024,international,USD,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,SAEZ,Ezeiza International Airport - Ministro Pistarini,59375,190.25,6
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SPJC,,57300,250.11,7
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SAEZ,Ezeiza International Airport - Ministro Pistarini,56648,209.86,8
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,LEMD,Adolfo Suárez Madrid–Barajas Airport,45138,1060.02,9
+2024,international,USD,SBKP,Viracopos International Airport,LPPT,Lisbon Humberto Delgado Airport,43062,797.51,10
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,LPPT,Lisbon Humberto Delgado Airport,39974,1214.62,11
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,MDSD,Las Américas International Airport,32329,220.2,12
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,LFPG,Charles de Gaulle International Airport,32155,1502.28,13
+2024,international,USD,SBCF,Tancredo Neves International Airport,SCEL,Comodoro Arturo Merino Benítez International Airport,29174,263.31,14
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,MMMX,Mexico City Benito Juárez International Airport,28566,1346.82,15
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,MDPC,Punta Cana International Airport,28205,244.7,16
+2024,international,USD,SBKP,Viracopos International Airport,KMCO,Orlando International Airport,27397,920.52,17
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,KJFK,John F. Kennedy International Airport,27181,1563.83,18
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,LIRF,Rome–Fiumicino Leonardo da Vinci International Airport,26151,1012.21,19
+2024,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,EGLL,London Heathrow Airport,26021,1365.48,20
+2025,international,USD,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,SCEL,Comodoro Arturo Merino Benítez International Airport,217530,201.2,1
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SCEL,Comodoro Arturo Merino Benítez International Airport,179990,232.52,2
+2025,international,USD,SBFL,Hercílio Luz International Airport,SCEL,Comodoro Arturo Merino Benítez International Airport,136907,155.72,3
+2025,international,USD,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,SABE,Aeroparque Jorge Newbery,92159,175.01,4
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,MDPC,Punta Cana International Airport,72403,212.65,5
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SABE,Aeroparque Jorge Newbery,68558,209.32,6
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SPJC,,65642,255.96,7
+2025,international,USD,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,SAEZ,Ezeiza International Airport - Ministro Pistarini,64639,178.92,8
+2025,international,USD,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,SUMU,Carrasco General Cesáreo L. Berisso International Airport,57671,177.83,9
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,LEMD,Adolfo Suárez Madrid–Barajas Airport,56915,1046.43,10
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,KMIA,Miami International Airport,56658,1416.21,11
+2025,international,USD,SBKP,Viracopos International Airport,LPPT,Lisbon Humberto Delgado Airport,55328,636.88,12
+2025,international,USD,SBFL,Hercílio Luz International Airport,SABE,Aeroparque Jorge Newbery,42967,175.2,13
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,LPPT,Lisbon Humberto Delgado Airport,39419,1217.33,14
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,LIRF,Rome–Fiumicino Leonardo da Vinci International Airport,35924,1004.91,15
+2025,international,USD,SBKP,Viracopos International Airport,KMCO,Orlando International Airport,35416,625.8,16
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,KMCO,Orlando International Airport,32382,1001.81,17
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,LFPG,Charles de Gaulle International Airport,30919,1551.07,18
+2025,international,USD,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,SAEZ,Ezeiza International Airport - Ministro Pistarini,30903,193.88,19
+2025,international,USD,SBFL,Hercílio Luz International Airport,SAEZ,Ezeiza International Airport - Ministro Pistarini,29206,155.07,20

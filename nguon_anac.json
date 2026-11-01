@@ -1,0 +1,7 @@
+{
+  "huong_dan": "Tu dong tim link CSV theo nam o thu muc ANAC cong khai. KHONG can dien URL thu cong. Khoang 2024 duoc bao ton tu CSV co san; tu dong bo sung tu 2025.",
+  "start_new_year": 2025,
+  "max_files_per_run": 12,
+  "recheck_recent_months": 3,
+  "airports_url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/main/airports.csv"
+}

@@ -1,0 +1,21 @@
+﻿nhom,chi_tieu,gia_tri,don_vi,nguon,ghi_chu
+2025_vs_2024,domestic_seats_yoy_pct,9.94,percent,Q04.csv,2024 và 2025 đủ 12 tháng
+2025_vs_2024,domestic_fare_yoy_pct,1.63,percent,Q04.csv,"BRL, giá có trọng số"
+2025_vs_2024,international_seats_yoy_pct,18.87,percent,Q04.csv,2024 và 2025 đủ 12 tháng
+2025_vs_2024,international_fare_yoy_pct,-7.12,percent,Q04.csv,"USD, giá có trọng số"
+2024_2025,domestic_month_min_fare,5,month,Q01.csv,Tháng 05 thấp nhất cả 2024 và 2025
+2024_2025,domestic_month_max_fare,12,month,Q01.csv,Tháng 12 cao nhất cả 2024 và 2025
+2024_2025,international_month_min_fare,11,month,Q01.csv,Tháng 11 thấp nhất cả 2024 và 2025
+2025,domestic_pearson_r,-0.6207,correlation,Q07.csv,12 quan sát theo tháng
+2025,international_pearson_r,-0.6092,correlation,Q07.csv,12 quan sát theo tháng
+2024_2026,opposite_monthly_changes,39,observations,Q02.csv;Q08.csv,39 trên 53 so sánh liên tháng hợp lệ
+2024_2025,domestic_repeat_top20_decline,3,routes,Q09.csv,3 trên 17 tuyến giao nhau của 2 Top 20
+2024_2025,international_repeat_top20_decline,5,routes,Q09.csv,5 trên 15 tuyến giao nhau của 2 Top 20
+2025,domestic_top10_route_share_pct,11.02,percent,Q11.csv,Tuyến có hướng
+2025,international_top10_route_share_pct,38.72,percent,Q11.csv,Tuyến có hướng
+202512,domestic_mom_price_pct,21.59,percent,Q02.csv;Q14.csv,So với tháng 11/2025
+202512,domestic_mom_seats_pct,-41.12,percent,Q02.csv;Q14.csv,So với tháng 11/2025
+2026_vs_2025_matched,domestic_seats_yoy_pct,-3.42,percent,Q05.csv,Chỉ 8 tháng đối sánh
+2026_vs_2025_matched,domestic_fare_yoy_pct,7.12,percent,Q05.csv,Chỉ 8 tháng đối sánh
+all,rows_missing_geo,6724,fact_rows,Q15.csv,Thiếu tọa độ một trong hai đầu tuyến
+all,seats_missing_geo_pct,0.79,percent,Q15.csv,Tính trên tổng ghế của các tuyến thiếu tọa độ

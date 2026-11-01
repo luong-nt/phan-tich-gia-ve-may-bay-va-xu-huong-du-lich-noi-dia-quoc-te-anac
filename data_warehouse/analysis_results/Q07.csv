@@ -1,0 +1,6 @@
+﻿sale_year,market_code,currency_code,observed_months,pearson_r_fare_vs_seats
+2024,domestic,BRL,12,-0.2146
+2025,domestic,BRL,12,-0.6207
+2026,domestic,BRL,8,-0.1915
+2024,international,USD,12,-0.0349
+2025,international,USD,12,-0.6092

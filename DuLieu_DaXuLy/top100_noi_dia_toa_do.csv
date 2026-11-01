@@ -1,0 +1,301 @@
+﻿ORIGEM,DESTINO,ASSENTOS,LOAI,TEN_DI,LAT_DI,LON_DI,TEN_DEN,LAT_DEN,LON_DEN,NAM
+SBSP,SBRJ,570211,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Santos Dumont Airport,-22.910397,-43.16282,2024
+SBRJ,SBSP,564422,Nội địa,Santos Dumont Airport,-22.910397,-43.16282,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBBR,SBSP,346468,Nội địa,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBSP,SBBR,333581,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2024
+SBCF,SBSP,292068,Nội địa,Tancredo Neves International Airport,-19.63571,-43.966928,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBSP,SBCF,281118,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Tancredo Neves International Airport,-19.63571,-43.966928,2024
+SBSV,SBSP,271238,Nội địa,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBSP,SBSV,263729,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2024
+SBGR,SBRF,239287,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2024
+SBRF,SBGR,238975,Nội địa,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBCT,SBSP,222753,Nội địa,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBSP,SBCT,216324,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2024
+SBFL,SBSP,204128,Nội địa,Hercílio Luz International Airport,-27.670279,-48.552502,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBSP,SBFL,199442,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Hercílio Luz International Airport,-27.670279,-48.552502,2024
+SBGL,SBRF,175316,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2024
+SBPA,SBSP,174927,Nội địa,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBGR,SBFZ,173258,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Pinto Martins International Airport,-3.775833,-38.532222,2024
+SBRF,SBGL,173169,Nội địa,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBFZ,SBGR,171019,Nội địa,Pinto Martins International Airport,-3.775833,-38.532222,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBSP,SBPA,169084,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2024
+SBGR,SBSV,162760,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2024
+SBRF,SBSP,157764,Nội địa,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBGL,SBSV,157245,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2024
+SBSV,SBGL,156221,Nội địa,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBSP,SBRF,154367,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2024
+SBSV,SBGR,151937,Nội địa,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBCY,SBGR,142133,Nội địa,Várzea Grande–Marechal Rondon International Airport,-15.6529,-56.116699,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBGR,SBCY,141368,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Várzea Grande–Marechal Rondon International Airport,-15.6529,-56.116699,2024
+SBGO,SBSP,135216,Nội địa,Santa Genoveva International Airport,-16.632,-49.220699,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBSP,SBGO,132371,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Santa Genoveva International Airport,-16.632,-49.220699,2024
+SBGR,SBBE,131532,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,2024
+SBBE,SBGR,129127,Nội địa,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBBR,SBRF,117266,Nội địa,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2024
+SBRF,SBBR,116351,Nội địa,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2024
+SBGR,SBCF,114429,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Tancredo Neves International Airport,-19.63571,-43.966928,2024
+SBCF,SBGL,112523,Nội địa,Tancredo Neves International Airport,-19.63571,-43.966928,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBGL,SBCF,112388,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Tancredo Neves International Airport,-19.63571,-43.966928,2024
+SBGR,SBMO,111189,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Zumbi dos Palmares International Airport,-9.512559,-35.791839,2024
+SBBR,SBRJ,111057,Nội địa,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Santos Dumont Airport,-22.910397,-43.16282,2024
+SBRJ,SBBR,110746,Nội địa,Santos Dumont Airport,-22.910397,-43.16282,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2024
+SBSP,SBVT,106690,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2024
+SBMO,SBGR,106339,Nội địa,Zumbi dos Palmares International Airport,-9.512559,-35.791839,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBVT,SBSP,106197,Nội địa,Eurico de Aguiar Salles International Airport,-20.258,-40.285,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBGR,SBAR,105372,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Aracaju - Santa Maria Airport,-10.98394,-37.072873,2024
+SBCF,SBGR,103875,Nội địa,Tancredo Neves International Airport,-19.63571,-43.966928,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBAR,SBGR,103873,Nội địa,Aracaju - Santa Maria Airport,-10.98394,-37.072873,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBGL,SBPA,100338,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2024
+SBGL,SBFZ,99720,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Pinto Martins International Airport,-3.775833,-38.532222,2024
+SBPA,SBGL,99363,Nội địa,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBFZ,SBGL,97367,Nội địa,Pinto Martins International Airport,-3.775833,-38.532222,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBNF,SBSP,94538,Nội địa,Ministro Victor Konder International Airport,-26.879431,-48.650979,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBGL,SBVT,93958,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2024
+SBBR,SBGL,93824,Nội địa,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBGL,SBBR,93062,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2024
+SBSP,SBNF,91962,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Ministro Victor Konder International Airport,-26.879431,-48.650979,2024
+SBVT,SBGL,91648,Nội địa,Eurico de Aguiar Salles International Airport,-20.258,-40.285,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBGR,SBBR,91435,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2024
+SBGR,SBCT,91322,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2024
+SBGR,SBVT,91060,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2024
+SBGR,SBPA,89676,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2024
+SBBR,SBCF,89667,Nội địa,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Tancredo Neves International Airport,-19.63571,-43.966928,2024
+SBGR,SBJP,88958,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Presidente Castro Pinto International Airport,-7.148691,-34.950554,2024
+SBCF,SBBR,88539,Nội địa,Tancredo Neves International Airport,-19.63571,-43.966928,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2024
+SBJP,SBGR,87138,Nội địa,Presidente Castro Pinto International Airport,-7.148691,-34.950554,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBVT,SBGR,86959,Nội địa,Eurico de Aguiar Salles International Airport,-20.258,-40.285,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBGR,SBSL,86180,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Marechal Cunha Machado International Airport,-2.586386,-44.235008,2024
+SBSP,SBFZ,85954,Nội địa,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Pinto Martins International Airport,-3.775833,-38.532222,2024
+SBFZ,SBSP,85467,Nội địa,Pinto Martins International Airport,-3.775833,-38.532222,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2024
+SBSV,SBBR,84651,Nội địa,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2024
+SBBR,SBSV,84592,Nội địa,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2024
+SBBR,SBGR,84519,Nội địa,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBMQ,SBBE,82718,Nội địa,Macapá - Alberto Alcolumbre International Airport,0.050664,-51.072201,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,2024
+SBPA,SBGR,82591,Nội địa,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBBE,SBMQ,81918,Nội địa,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,Macapá - Alberto Alcolumbre International Airport,0.050664,-51.072201,2024
+SBGR,SBSG,81647,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport,-5.769822,-35.36661,2024
+SBSL,SBGR,81596,Nội địa,Marechal Cunha Machado International Airport,-2.586386,-44.235008,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBCT,SBGR,81017,Nội địa,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBKP,SBBR,80249,Nội địa,Viracopos International Airport,-23.007404,-47.134502,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2024
+SBSG,SBGR,79126,Nội địa,Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport,-5.769822,-35.36661,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBGR,SBGL,78796,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBBR,SBKP,78456,Nội địa,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Viracopos International Airport,-23.007404,-47.134502,2024
+SBSV,SBKP,75931,Nội địa,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Viracopos International Airport,-23.007404,-47.134502,2024
+SBKP,SBSV,75621,Nội địa,Viracopos International Airport,-23.007404,-47.134502,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2024
+SBGR,SBPL,74479,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Senador Nilo Coelho Airport,-9.362422,-40.569098,2024
+SBGL,SBGR,73964,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBGR,SBEG,73867,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Eduardo Gomes International Airport,-3.03861,-60.049702,2024
+SBGR,SBFL,73740,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Hercílio Luz International Airport,-27.670279,-48.552502,2024
+SBPL,SBGR,73410,Nội địa,Senador Nilo Coelho Airport,-9.362422,-40.569098,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBGL,SBCT,72794,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2024
+SBGR,SBGO,72292,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Santa Genoveva International Airport,-16.632,-49.220699,2024
+SBEG,SBGR,71936,Nội địa,Eduardo Gomes International Airport,-3.03861,-60.049702,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBSV,SBCF,71804,Nội địa,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Tancredo Neves International Airport,-19.63571,-43.966928,2024
+SBCT,SBGL,71081,Nội địa,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBCG,SBGR,70982,Nội địa,Campo Grande Airport,-20.469998,-54.673988,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2024
+SBGR,SBCG,70975,Nội địa,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Campo Grande Airport,-20.469998,-54.673988,2024
+SBSV,SBRF,70874,Nội địa,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2024
+SBCF,SBSV,70193,Nội địa,Tancredo Neves International Airport,-19.63571,-43.966928,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2024
+SBRF,SBSV,69497,Nội địa,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2024
+SBFL,SBGL,68153,Nội địa,Hercílio Luz International Airport,-27.670279,-48.552502,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2024
+SBGL,SBFL,67980,Nội địa,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Hercílio Luz International Airport,-27.670279,-48.552502,2024
+SBSP,SBRJ,609939,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Santos Dumont Airport,-22.910397,-43.16282,2025
+SBRJ,SBSP,595059,,Santos Dumont Airport,-22.910397,-43.16282,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBBR,SBSP,404382,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBSP,SBBR,390024,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2025
+SBSP,SBRJ,369237,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Santos Dumont Airport,-22.910397,-43.16282,2026
+SBRJ,SBSP,361308,,Santos Dumont Airport,-22.910397,-43.16282,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBPA,SBSP,299817,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBCF,SBSP,299386,,Tancredo Neves International Airport,-19.63571,-43.966928,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBSP,SBCF,290858,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Tancredo Neves International Airport,-19.63571,-43.966928,2025
+SBSP,SBPA,290164,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2025
+SBGR,SBRF,267561,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2025
+SBRF,SBGR,266233,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBSP,SBSV,260132,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2025
+SBSV,SBSP,257345,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBFL,SBSP,248158,,Hercílio Luz International Airport,-27.670279,-48.552502,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBSP,SBFL,239965,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Hercílio Luz International Airport,-27.670279,-48.552502,2025
+SBCT,SBSP,223661,,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBSP,SBCT,215816,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2025
+SBRF,SBSP,207537,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBGR,SBRF,205491,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2026
+SBSP,SBRF,202843,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2025
+SBRF,SBGR,200879,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBFZ,198841,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Pinto Martins International Airport,-3.775833,-38.532222,2025
+SBGL,SBPA,197204,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2025
+SBPA,SBSP,193446,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBFZ,SBGR,193085,,Pinto Martins International Airport,-3.775833,-38.532222,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBPA,SBGL,192548,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBBR,SBSP,188603,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBSP,SBPA,186963,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2026
+SBSP,SBBR,184722,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2026
+SBGR,SBPA,183457,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2025
+SBGL,SBRF,180679,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2025
+SBRF,SBGL,179264,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBCF,SBSP,179159,,Tancredo Neves International Airport,-19.63571,-43.966928,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBSP,SBCF,173868,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Tancredo Neves International Airport,-19.63571,-43.966928,2026
+SBGL,SBSV,169465,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2025
+SBGR,SBSV,168891,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2025
+SBPA,SBGR,168726,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBBR,SBRJ,167371,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Santos Dumont Airport,-22.910397,-43.16282,2025
+SBSV,SBGL,166385,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBGO,SBSP,165393,,Santa Genoveva International Airport,-16.632,-49.220699,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBSV,SBGR,165235,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBSP,SBRF,164784,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2026
+SBRF,SBSP,164584,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBSP,SBGO,161745,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Santa Genoveva International Airport,-16.632,-49.220699,2025
+SBRJ,SBBR,158443,,Santos Dumont Airport,-22.910397,-43.16282,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2025
+SBGR,SBBR,151638,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2025
+SBSV,SBSP,149083,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBSP,SBSV,148337,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2026
+SBGL,SBFZ,145833,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Pinto Martins International Airport,-3.775833,-38.532222,2025
+SBFZ,SBGL,145731,,Pinto Martins International Airport,-3.775833,-38.532222,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBGR,SBPA,145082,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2026
+SBRF,SBBR,144417,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2025
+SBBR,SBRF,143696,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2025
+SBBR,SBGR,140850,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBGR,SBBE,140370,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,2025
+SBBE,SBGR,138232,,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBGL,SBBR,138208,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2025
+SBGL,SBVT,137570,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2025
+SBPA,SBGR,135900,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBVT,SBGL,134122,,Eurico de Aguiar Salles International Airport,-20.258,-40.285,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBCT,SBSP,134012,,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBGL,SBPA,130757,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2026
+SBBR,SBGL,130519,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBGR,SBCY,129313,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Várzea Grande–Marechal Rondon International Airport,-15.6529,-56.116699,2025
+SBSP,SBCT,128404,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2026
+SBGL,SBCT,127378,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2025
+SBGR,SBVT,127005,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2025
+SBBR,SBCF,126474,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Tancredo Neves International Airport,-19.63571,-43.966928,2025
+SBPA,SBGL,126440,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2026
+SBCF,SBBR,126158,,Tancredo Neves International Airport,-19.63571,-43.966928,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2025
+SBGR,SBMO,125873,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Zumbi dos Palmares International Airport,-9.512559,-35.791839,2025
+SBCY,SBGR,125552,,Várzea Grande–Marechal Rondon International Airport,-15.6529,-56.116699,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBCT,SBGL,124743,,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBVT,SBSP,124004,,Eurico de Aguiar Salles International Airport,-20.258,-40.285,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBNF,SBSP,123922,,Ministro Victor Konder International Airport,-26.879431,-48.650979,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBGR,SBSV,123286,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2026
+SBSP,SBVT,122420,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2025
+SBSP,SBNF,121419,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Ministro Victor Konder International Airport,-26.879431,-48.650979,2025
+SBVT,SBGR,120491,,Eurico de Aguiar Salles International Airport,-20.258,-40.285,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBSV,SBGR,118962,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBMO,SBGR,118884,,Zumbi dos Palmares International Airport,-9.512559,-35.791839,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBFZ,SBSP,116681,,Pinto Martins International Airport,-3.775833,-38.532222,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2025
+SBGR,SBCF,116677,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Tancredo Neves International Airport,-19.63571,-43.966928,2025
+SBSP,SBFZ,114957,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Pinto Martins International Airport,-3.775833,-38.532222,2025
+SBFL,SBSP,113171,,Hercílio Luz International Airport,-27.670279,-48.552502,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBGR,SBAR,112897,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Aracaju - Santa Maria Airport,-10.98394,-37.072873,2025
+SBSP,SBFL,111901,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Hercílio Luz International Airport,-27.670279,-48.552502,2026
+SBGR,SBSL,109017,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Marechal Cunha Machado International Airport,-2.586386,-44.235008,2025
+SBAR,SBGR,107707,,Aracaju - Santa Maria Airport,-10.98394,-37.072873,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBFZ,SBGR,107082,,Pinto Martins International Airport,-3.775833,-38.532222,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBCF,SBGR,107052,,Tancredo Neves International Airport,-19.63571,-43.966928,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBGR,SBFZ,107013,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Pinto Martins International Airport,-3.775833,-38.532222,2026
+SBRF,SBBR,104399,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2026
+SBSL,SBGR,104387,,Marechal Cunha Machado International Airport,-2.586386,-44.235008,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBBR,SBRF,104185,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2026
+SBGR,SBFL,103931,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Hercílio Luz International Airport,-27.670279,-48.552502,2025
+SBKP,SBBR,102604,,Viracopos International Airport,-23.007404,-47.134502,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2025
+SBBR,SBKP,102129,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Viracopos International Airport,-23.007404,-47.134502,2025
+SBGL,SBCT,101962,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2026
+SBGR,SBJP,100733,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Presidente Castro Pinto International Airport,-7.148691,-34.950554,2025
+SBGL,SBCF,100518,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Tancredo Neves International Airport,-19.63571,-43.966928,2025
+SBCT,SBGL,100493,,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2026
+SBCF,SBGL,97871,,Tancredo Neves International Airport,-19.63571,-43.966928,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBJP,SBGR,95015,,Presidente Castro Pinto International Airport,-7.148691,-34.950554,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBFL,SBGR,90508,,Hercílio Luz International Airport,-27.670279,-48.552502,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBBR,SBSV,89727,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2025
+SBPA,SBCT,89179,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2025
+SBJU,SBGR,89043,,Orlando Bezerra de Menezes Airport,-7.21932,-39.269096,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBGR,SBJU,88979,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Orlando Bezerra de Menezes Airport,-7.21932,-39.269096,2025
+SBSV,SBBR,88925,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2025
+SBCT,SBPA,88857,,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2025
+SBGR,SBCT,88805,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2025
+SBSV,SBCF,88733,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Tancredo Neves International Airport,-19.63571,-43.966928,2025
+SBGR,SBGO,88533,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Santa Genoveva International Airport,-16.632,-49.220699,2025
+SBCF,SBSV,87948,,Tancredo Neves International Airport,-19.63571,-43.966928,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2025
+SBBR,SBRJ,87535,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Santos Dumont Airport,-22.910397,-43.16282,2026
+SBGL,SBSV,87225,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2026
+SBPA,SBCT,87173,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2026
+SBCT,SBPA,86958,,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2026
+SBBE,SBGR,86781,,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBSG,86548,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport,-5.769822,-35.36661,2025
+SBGR,SBBE,86269,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,2026
+SBGR,SBEG,85699,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Eduardo Gomes International Airport,-3.03861,-60.049702,2025
+SBSV,SBGL,83806,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2026
+SBGR,SBPL,83120,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Senador Nilo Coelho Airport,-9.362422,-40.569098,2025
+SBGL,SBFL,82920,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Hercílio Luz International Airport,-27.670279,-48.552502,2025
+SBEG,SBGR,81864,,Eduardo Gomes International Airport,-3.03861,-60.049702,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBRJ,SBBR,81670,,Santos Dumont Airport,-22.910397,-43.16282,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2026
+SBFL,SBGL,81599,,Hercílio Luz International Airport,-27.670279,-48.552502,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2025
+SBGR,SBCG,81499,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Campo Grande Airport,-20.469998,-54.673988,2025
+SBSG,SBGR,81368,,Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport,-5.769822,-35.36661,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBGR,SBVT,80316,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2026
+SBGL,SBRF,80224,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2026
+SBRF,SBGL,80148,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2026
+SBPL,SBGR,80076,,Senador Nilo Coelho Airport,-9.362422,-40.569098,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBGR,SBTE,79952,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Senador Petrônio Portela Airport,-5.06025,-42.823712,2025
+SBCG,SBGR,79435,,Campo Grande Airport,-20.469998,-54.673988,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBGL,SBVT,79337,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2026
+SBGO,SBGR,79218,,Santa Genoveva International Airport,-16.632,-49.220699,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBGR,SBCY,78694,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Várzea Grande–Marechal Rondon International Airport,-15.6529,-56.116699,2026
+SBVT,SBGL,78336,,Eurico de Aguiar Salles International Airport,-20.258,-40.285,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2026
+SBKP,SBBR,78291,,Viracopos International Airport,-23.007404,-47.134502,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2026
+SBBR,SBKP,78052,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Viracopos International Airport,-23.007404,-47.134502,2026
+SBCT,SBGR,77999,,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2025
+SBVT,SBGR,77462,,Eurico de Aguiar Salles International Airport,-20.258,-40.285,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBPS,77459,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Porto Seguro International Airport,-16.438426,-39.080584,2025
+SBCY,SBGR,77287,,Várzea Grande–Marechal Rondon International Airport,-15.6529,-56.116699,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBCF,SBBR,77282,,Tancredo Neves International Airport,-19.63571,-43.966928,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2026
+SBBR,SBCF,76947,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Tancredo Neves International Airport,-19.63571,-43.966928,2026
+SBGR,SBCF,74854,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Tancredo Neves International Airport,-19.63571,-43.966928,2026
+SBVT,SBSP,71781,,Eurico de Aguiar Salles International Airport,-20.258,-40.285,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBSP,SBVT,71641,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Eurico de Aguiar Salles International Airport,-20.258,-40.285,2026
+SBGO,SBSP,69574,,Santa Genoveva International Airport,-16.632,-49.220699,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBCF,SBGR,69260,,Tancredo Neves International Airport,-19.63571,-43.966928,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBSL,68678,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Marechal Cunha Machado International Airport,-2.586386,-44.235008,2026
+SBSP,SBGO,68663,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Santa Genoveva International Airport,-16.632,-49.220699,2026
+SBFZ,SBGL,67967,,Pinto Martins International Airport,-3.775833,-38.532222,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2026
+SBGL,SBFZ,67942,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Pinto Martins International Airport,-3.775833,-38.532222,2026
+SBNF,SBSP,67358,,Ministro Victor Konder International Airport,-26.879431,-48.650979,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBSL,SBGR,65953,,Marechal Cunha Machado International Airport,-2.586386,-44.235008,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBSP,SBNF,65806,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Ministro Victor Konder International Airport,-26.879431,-48.650979,2026
+SBBR,SBSV,64159,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2026
+SBGR,SBMO,63884,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Zumbi dos Palmares International Airport,-9.512559,-35.791839,2026
+SBSV,SBBR,63273,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2026
+SBPA,SBCF,63167,,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,Tancredo Neves International Airport,-19.63571,-43.966928,2026
+SBGR,SBJP,62936,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Presidente Castro Pinto International Airport,-7.148691,-34.950554,2026
+SBCF,SBPA,62805,,Tancredo Neves International Airport,-19.63571,-43.966928,Porto Alegre-Salgado Filho International Airport,-29.993984,-51.167482,2026
+SBMO,SBGR,62276,,Zumbi dos Palmares International Airport,-9.512559,-35.791839,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBAR,60193,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Aracaju - Santa Maria Airport,-10.98394,-37.072873,2026
+SBSP,SBFI,60109,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Cataratas International Airport,-25.594167,-54.489444,2026
+SBJP,SBGR,60051,,Presidente Castro Pinto International Airport,-7.148691,-34.950554,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBEG,60022,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Eduardo Gomes International Airport,-3.03861,-60.049702,2026
+SBGL,SBBR,59824,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2026
+SBAR,SBGR,59318,,Aracaju - Santa Maria Airport,-10.98394,-37.072873,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBEG,SBGR,59102,,Eduardo Gomes International Airport,-3.03861,-60.049702,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBCT,58917,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,2026
+SBFZ,SBBE,58812,,Pinto Martins International Airport,-3.775833,-38.532222,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,2026
+SBBE,SBFZ,58687,,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,Pinto Martins International Airport,-3.775833,-38.532222,2026
+SBGR,SBJU,57767,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Orlando Bezerra de Menezes Airport,-7.21932,-39.269096,2026
+SBJU,SBGR,57119,,Orlando Bezerra de Menezes Airport,-7.21932,-39.269096,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBTE,56777,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Senador Petrônio Portela Airport,-5.06025,-42.823712,2026
+SBTE,SBGR,56140,,Senador Petrônio Portela Airport,-5.06025,-42.823712,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBBR,SBGL,55335,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2026
+SBFI,SBSP,55022,,Cataratas International Airport,-25.594167,-54.489444,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026
+SBGR,SBSG,55001,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport,-5.769822,-35.36661,2026
+SBMQ,SBBE,53491,,Macapá - Alberto Alcolumbre International Airport,0.050664,-51.072201,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,2026
+SBBE,SBMQ,53210,,Val de Cans/Júlio Cezar Ribeiro International Airport,-1.379279,-48.476207,Macapá - Alberto Alcolumbre International Airport,0.050664,-51.072201,2026
+SBCT,SBGR,53061,,Curitiba-Afonso Pena International Airport,-25.5285,-49.1758,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBPL,52747,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Senador Nilo Coelho Airport,-9.362422,-40.569098,2026
+SBRF,SBSV,52315,,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,2026
+SBSV,SBRF,52072,,Deputado Luiz Eduardo Magalhães International Airport,-12.908611,-38.322498,Recife/Guararapes - Gilberto Freyre International Airport,-8.12747,-34.922961,2026
+SBSG,SBGR,51768,,Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport,-5.769822,-35.36661,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGL,SBCF,51703,,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,Tancredo Neves International Airport,-19.63571,-43.966928,2026
+SBPL,SBGR,51514,,Senador Nilo Coelho Airport,-9.362422,-40.569098,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBGR,SBBR,51508,,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,2026
+SBSP,SBFZ,50652,,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,Pinto Martins International Airport,-3.775833,-38.532222,2026
+SBCF,SBGL,49146,,Tancredo Neves International Airport,-19.63571,-43.966928,Rio de Janeiro Galeão – Tom Jobim International Airport,-22.809999,-43.250557,2026
+SBBR,SBGR,48701,,Presidente Juscelino Kubitschek International Airport,-15.869167,-47.920834,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,-23.431274,-46.469954,2026
+SBFZ,SBSP,48543,,Pinto Martins International Airport,-3.775833,-38.532222,Congonhas–Deputado Freitas Nobre Airport,-23.627657,-46.654601,2026

@@ -1,0 +1,59 @@
+# Python / local tools
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local DuckDB databases, journal files and incremental backups
+*.duckdb
+*.duckdb.wal
+*.duckdb.before_incremental.bak
+*.duckdb.bak
+
+# Boxplot partial downloads / temporary files
+**/_boxplot_download_cache/
+*.part
+*.partial
+*.tmp
+
+# Large raw/source datasets (do not exclude small derived dashboard CSV)
+Dulieugoc/
+Dulieusach/
+DuLieu_DaXuLy/_tu_dong/airports.csv
+DuLieu_DaXuLy/noi_dia_sach_2024.csv
+DuLieu_DaXuLy/quoc_te_sach_2024.csv
+
+# Local copies / archives / old dashboard backups
+*.zip
+*.7z
+*.rar
+*.bak
+*backup*.py
+*Backup*.py
+
+# Notebook checkpoints / logs
+.ipynb_checkpoints/
+*.log
+
+# IMPORTANT: keep DuLieu_DaXuLy/*.csv and _tu_dong/{state.json,parts/}
+# unless you redesign the ETL workflow and reproducibility strategy.
+
+# Old ETL state recovery copies, keep them local
+state_backup*.json
+
+state_backup*.json
+
+*backup*.sql

@@ -1,0 +1,6 @@
+﻿sale_year,market_code,fact_rows,rows_missing_geo,rows_missing_geo_pct,total_seats,seats_on_routes_missing_geo,seats_missing_geo_pct
+2024,domestic,77036,2342,3.04,30660967,208931,0.68
+2025,domestic,65843,1944,2.95,33707514,221544,0.66
+2026,domestic,46852,1190,2.54,21167445,145476,0.69
+2024,international,15078,650,4.31,2199670,64353,2.93
+2025,international,16479,598,3.63,2614727,69378,2.65
