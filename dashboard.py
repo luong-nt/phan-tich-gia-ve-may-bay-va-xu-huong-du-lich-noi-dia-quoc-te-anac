@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 from html import escape
 import base64
 import json
@@ -7,6 +8,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
+from anac_cloud_warehouse import fetch_release_asset, ensure_snapshot
 from dashboard_v4_analytics import (
     weighted_mean_fare, matched_yoy,
     pareto, dumbbell_pairs, usable_distribution,
@@ -21,7 +23,13 @@ except ImportError:
 st.set_page_config(page_title='ANAC | Aviation Analytics', layout='wide', initial_sidebar_state='expanded')
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'DuLieu_DaXuLy'
-DB_PATH = ROOT / 'data_warehouse' / 'anac.duckdb'
+LOCAL_DB_PATH = ROOT / 'data_warehouse' / 'anac.duckdb'
+# Prefer the existing local DuckDB when developing in VS Code.
+# Streamlit Cloud has no local DuckDB, so it downloads the published release.
+# Set ANAC_WAREHOUSE_SOURCE=release to test cloud mode on your own computer.
+USE_REMOTE = (os.getenv('ANAC_WAREHOUSE_SOURCE', '').lower() == 'release'
+              or not LOCAL_DB_PATH.is_file())
+DB_PATH = ROOT / '.anac_cloud_cache' / 'anac.duckdb' if USE_REMOTE else LOCAL_DB_PATH
 ANALYSIS_RESULTS = ROOT / 'data_warehouse' / 'analysis_results'
 DISTRIBUTIONS = ROOT / 'data_warehouse' / 'fare_distribution_by_month.csv'
 LOGO = ROOT / 'assets' / 'anac_logo.png'
@@ -107,9 +115,34 @@ def read_csv(name):
     sep=';' if head.count(';')>head.count(',') else ','
     return pd.read_csv(path,sep=sep,encoding='utf-8-sig',low_memory=False)
 
+@st.cache_data(ttl=300, show_spinner=False)
+def latest_release_asset():
+    """Check GitHub metadata at most once every five minutes per cache."""
+    return fetch_release_asset()
+
+
 def db_signature():
-    """Invalidate Streamlit's cache when a new local DW file is deployed."""
+    """Use local DuckDB in VS Code or a validated Release snapshot on Cloud."""
+    if USE_REMOTE:
+        try:
+            return ensure_snapshot(latest_release_asset(), DB_PATH)
+        except Exception as exc:
+            if DB_PATH.is_file():
+                st.warning('GitHub Releases tạm thời không truy cập được; đang dùng DuckDB đã tải trước đó.')
+                return DB_PATH.stat().st_mtime_ns
+            raise RuntimeError(f'Chưa tải được DuckDB từ GitHub Releases: {exc}') from exc
     return DB_PATH.stat().st_mtime_ns if DB_PATH.is_file() else None
+
+
+@st.fragment(run_every='10m')
+def watch_cloud_release(loaded_asset_id):
+    """Refresh the full dashboard when GitHub publishes a newer asset."""
+    try:
+        if str(latest_release_asset()['id']) != str(loaded_asset_id):
+            st.rerun()
+    except Exception:
+        # Temporary API failures must not interrupt a previously loaded dashboard.
+        pass
 
 
 def connect_dw():
@@ -257,6 +290,8 @@ def load_csv_destinations():
 
 try:
     signature=db_signature()
+    if USE_REMOTE:
+        watch_cloud_release(signature)
     monthly, data_source=load_monthly(signature)
 except Exception as exc:
     st.error(f'Không đọc được dữ liệu: {exc}')

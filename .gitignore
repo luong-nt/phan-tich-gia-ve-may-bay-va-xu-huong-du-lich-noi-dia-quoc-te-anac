@@ -57,3 +57,6 @@ state_backup*.json
 state_backup*.json
 
 *backup*.sql
+
+# Downloaded GitHub Release snapshots
+.anac_cloud_cache/
