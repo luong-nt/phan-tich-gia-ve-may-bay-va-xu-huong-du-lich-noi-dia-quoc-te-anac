@@ -1,5 +1,5 @@
-# ANAC Brazil - update real public airfare CSVs and seat-weighted fare distributions.
-# Daily at 12:23 Vietnam time (05:23 UTC); checks the ANAC index each run.
+# ANAC Brazil - scheduled ETL, quality checks, and DuckDB snapshot publishing.
+# Daily at approximately 12:23 Vietnam time (05:23 UTC).
 name: ANAC | Tu dong cap nhat ETL va Boxplot
 
 on:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'check = kiem tra, khong ghi; update = cap nhat & commit neu co du lieu moi'
+        description: 'check = read-only checks; update = refresh ETL and warehouse'
         required: true
         default: check
         type: choice
@@ -71,8 +71,59 @@ jobs:
       - name: Run automated unit tests
         run: python -m pytest tests/ -q
 
-      # Publish only approved derived files. Not the raw source files or DuckDB.
-      - name: Commit and push only if data actually changed
+      # Fetch a verified DuckDB baseline. The bootstrap release is never modified.
+      - name: Download DuckDB snapshot from GitHub Releases
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'update' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data_warehouse
+          if gh release view warehouse-current --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            SNAPSHOT_TAG='warehouse-current'
+          else
+            SNAPSHOT_TAG='warehouse-bootstrap-v1'
+          fi
+          echo "Downloading DuckDB snapshot from release: $SNAPSHOT_TAG"
+          gh release download "$SNAPSHOT_TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --pattern 'anac.duckdb' \
+            --dir data_warehouse \
+            --clobber
+          test -s data_warehouse/anac.duckdb
+          sha256sum data_warehouse/anac.duckdb | cut -d ' ' -f 1 > "$RUNNER_TEMP/anac-before.sha256"
+
+      - name: Apply incremental updates to DuckDB
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'update' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python data_warehouse/incremental_warehouse.py --check
+          python data_warehouse/incremental_warehouse.py --apply
+          python data_warehouse/incremental_warehouse.py --check
+
+      - name: Verify updated DuckDB before publishing
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'update' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import duckdb
+          db = 'data_warehouse/anac.duckdb'
+          with duckdb.connect(db, read_only=True) as c:
+              count = c.execute('SELECT COUNT(*) FROM fact_airfare_route_monthly').fetchone()[0]
+              bad = c.execute('''
+                SELECT COUNT(*) FROM fact_airfare_route_monthly
+                WHERE total_seats <= 0 OR priced_seats < 0
+                   OR priced_seats > total_seats OR fare_weighted_sum < 0
+              ''').fetchone()[0]
+          print(f'Warehouse fact rows: {count}; invalid rows: {bad}')
+          if count <= 0 or bad:
+              raise SystemExit('Warehouse failed final validation; release unchanged')
+          PY
+
+      - name: Commit and push only if approved ETL data changed
         if: ${{ github.event_name == 'schedule' || inputs.mode == 'update' }}
         shell: bash
         run: |
@@ -90,9 +141,51 @@ jobs:
             data_warehouse/fare_distribution_by_month.csv \
             data_warehouse/fare_distribution_sync.json
           if git diff --cached --quiet; then
-            echo 'ANAC: no data change, no commit necessary.'
+            echo 'ANAC: no CSV/state change, no commit necessary.'
           else
             git diff --cached --stat
             git commit -m 'data: auto-update ANAC ETL and fare distributions'
             git push origin HEAD:main
           fi
+
+      - name: Determine whether updated DuckDB needs publishing
+        id: snapshot
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'update' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          PREVIOUS="$(cat "$RUNNER_TEMP/anac-before.sha256")"
+          CURRENT="$(sha256sum data_warehouse/anac.duckdb | cut -d ' ' -f 1)"
+          if [[ "$PREVIOUS" != "$CURRENT" ]]; then
+            echo 'publish=true' >> "$GITHUB_OUTPUT"
+            echo 'DuckDB changed: publishing new snapshot.'
+          elif ! gh release view warehouse-current --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'publish=true' >> "$GITHUB_OUTPUT"
+            echo 'First publication of warehouse-current.'
+          else
+            echo 'publish=false' >> "$GITHUB_OUTPUT"
+            echo 'No DuckDB changes: keeping current release untouched.'
+          fi
+
+      - name: Publish DuckDB to warehouse-current Release
+        if: ${{ steps.snapshot.outputs.publish == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh release view warehouse-current --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload warehouse-current data_warehouse/anac.duckdb \
+              --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create warehouse-current data_warehouse/anac.duckdb \
+              --repo "$GITHUB_REPOSITORY" \
+              --target main \
+              --title 'ANAC DuckDB - Current Data Warehouse' \
+              --notes 'Automated DuckDB snapshot after ETL, validation, and incremental update.' \
+              --latest
+          fi
+          echo 'Published DuckDB snapshot:'
+          gh release view warehouse-current --repo "$GITHUB_REPOSITORY"
