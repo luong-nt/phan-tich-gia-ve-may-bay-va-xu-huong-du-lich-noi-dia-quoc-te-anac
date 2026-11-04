@@ -35,6 +35,10 @@ Các câu hỏi phân tích chính: giá vé và số ghế bán thay đổi th�
 | Data delivery | Xuất bản `anac.duckdb` đã kiểm tra lên GitHub Releases |
 | Presentation | Streamlit + Plotly; Dashboard được triển khai bằng Streamlit Community Cloud |
 
+### Vai trò và phạm vi triển khai
+
+Đây là dự án portfolio cá nhân, tập trung vào cả **xử lý dữ liệu** và **phân tích trực quan**. Phạm vi triển khai bao gồm thu thập dữ liệu công khai, thiết kế bước làm sạch và tổng hợp, xây dựng mô hình phân tích DuckDB, kiểm thử dữ liệu, cấu hình workflow GitHub Actions và triển khai Dashboard Streamlit. Các kết quả kiểm chứng được dẫn tới mã nguồn, workflow và Release để người đọc có thể đối chiếu.
+
 ## 3. Kiến trúc hệ thống
 
 ```mermaid
@@ -100,7 +104,15 @@ Dashboard có ba nhóm chức năng:
 
 Các bộ lọc chính gồm **thị trường**, **năm**, **khoảng tháng** và số lượng tuyến hoặc điểm đến hiển thị. Dashboard hiển thị nguồn dữ liệu đang sử dụng để dễ phân biệt DuckDB với CSV dự phòng.
 
-> Ảnh giao diện thực tế sẽ được bổ sung sau khi chọn và lưu ba ảnh tương ứng tại `docs/screenshots/`. Không sử dụng ảnh minh họa giả làm kết quả thực nghiệm.
+### Giao diện Dashboard thực tế
+
+Ảnh dưới đây được chụp từ ứng dụng Streamlit Community Cloud, thể hiện bản đồ tuyến bay, các chỉ số tổng hợp và bộ lọc tương tác.
+
+![Trang phân tích mạng lưới tuyến bay ANAC trên Streamlit Cloud](docs/screenshots/route-network.png)
+
+*Hình 2. Mạng lưới tuyến bay và một số chỉ số phân tích của hệ thống.*
+
+Ba nhóm phân tích có thể được truy cập trực tiếp tại [Dashboard ANAC Brazil](https://anac-brazil-analytics.streamlit.app/).
 
 ## 7. Tự động hóa và cập nhật dữ liệu
 
@@ -212,7 +224,7 @@ Các lệnh `--check` không nhằm cập nhật DuckDB. Việc **tái lập to�
 - Lịch chạy GitHub Actions và việc làm mới Streamlit không bảo đảm cập nhật tức thời.
 - Quy trình thay asset trên GitHub Releases chưa phải cơ chế phát hành/rollback nguyên tử cấp production.
 
-**Hướng cải thiện tiếp theo:** tăng độ bao phủ kiểm thử tích hợp và kiểm thử dữ liệu, theo dõi trạng thái cập nhật/độ trễ, bổ sung ảnh minh chứng Dashboard thực tế, hoàn thiện tài liệu tái lập ETL và tối ưu truy vấn phân tích khi dữ liệu tăng.
+**Hướng cải thiện tiếp theo:** tăng độ bao phủ kiểm thử tích hợp và kiểm thử dữ liệu, theo dõi trạng thái cập nhật/độ trễ, bổ sung ảnh hai trang phân tích còn lại, hoàn thiện tài liệu tái lập ETL và tối ưu truy vấn phân tích khi dữ liệu tăng.
 
 ## 12. Tài liệu tham khảo
 
