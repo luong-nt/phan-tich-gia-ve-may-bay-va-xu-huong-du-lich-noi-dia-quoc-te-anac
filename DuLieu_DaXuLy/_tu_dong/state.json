@@ -1,6 +1,6 @@
 {
-  "last_success_utc": "2026-10-29 19:36:35",
-  "period": "2024-01 đến 2026-09",
+  "last_success_utc": "2026-11-19 14:35:52",
+  "period": "2024-01 đến 2026-10",
   "months": {
     "domestic_2025-01": {
       "month": "2025-01",
@@ -321,10 +321,20 @@
       "rows": 892505,
       "sha256": "030fa56727481e097a914a638b5f39eb601866bfdc8326ac2a13c7b9b0f42138",
       "url": "https://sas.anac.gov.br/sas/tarifadomestica/2026/202609.csv"
+    },
+    "domestic_2026-10": {
+      "month": "2026-10",
+      "market": "domestic",
+      "seats": 2650511.0,
+      "fare_weight": 2072763948.24,
+      "fare_seats": 2650511.0,
+      "rows": 913638,
+      "sha256": "682dd1afaaec2cb8b30acdcb5afb7f1adff600528bf5dbb7a498661b02c25420",
+      "url": "https://sas.anac.gov.br/sas/tarifadomestica/2026/202610.csv"
     }
   },
   "newly_processed": [
-    "domestic_2026-09"
+    "domestic_2026-10"
   ],
   "warnings": [],
   "year_coverage": [
